@@ -1,0 +1,17 @@
+function getUserSummary() {
+  // Write your code below this line
+
+  let _users = 150;
+  let username = "John";
+  let Admin = true;
+
+  return [
+    "Total Users: " + _users,
+    "User Name: " + username,
+    "Is Admin: " + Admin
+  ];
+
+  // Write your code above this line
+}
+
+console.log(getUserSummary());
